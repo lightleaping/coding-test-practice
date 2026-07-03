@@ -15,4 +15,4 @@ else:
 # TypeError: unsupported operand type(s) for //: 'str' and 'int'
 #
 # input()으로 입력을 받으면 문자열이다.
-# // 몫 계산, % 나머지 계싼
+# // 몫 계산, % 나머지 계산
