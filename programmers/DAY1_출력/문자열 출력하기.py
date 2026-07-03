@@ -8,5 +8,5 @@
 # print(str = input()) -> TypeError: print() got an unexpected keyword argument 'str'
 # 해당 파라미터가 없다.
 
-str = input()
-print(str)
+s = input()
+print(s)

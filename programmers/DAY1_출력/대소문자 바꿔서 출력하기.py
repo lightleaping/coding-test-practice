@@ -5,11 +5,11 @@
 # 1 ≤ str의 길이 ≤ 20
 # str은 알파벳으로 이루어진 문자열입니다.
 
-str = input()
+s = input()
 
 result = ""
 
-for i in str:
+for i in s:
     if i.upper() == i:
         result += i.lower()
     else:
@@ -17,12 +17,12 @@ for i in str:
     
 print(result)
 
-# str = input()
-# str = str.swapcase()
-# print(str)
+# s = input()
+# s = str.swapcase()
+# print(s)
 
-# for i in len(str)가 아니라
-# for i in range(len(str)) 또는 for i in str를 사용해야 한다.
+# for i in len(s)가 아니라
+# for i in range(len(s)) 또는 for i in s를 사용해야 한다.
 # TypeError: 'int' object is not iterable
 
 # 문자열 메서드 호출 시 괄호 사용

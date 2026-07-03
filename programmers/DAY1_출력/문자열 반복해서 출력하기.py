@@ -6,6 +6,6 @@
 # 1 ≤ str의 길이 ≤ 10
 # 1 ≤ n ≤ 5
 
-str, n = input().split(' ')
+s, n = input().split(' ')
 
-print(str * int(n))
+print(s * int(n))
